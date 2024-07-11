@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__nav{
+    background: #282828;
+}
+.header__nav-perents{
+    display: flex;
+    
+}
+.header__nav-list-link{
+    font-family:'MonsterB';
+font-weight: 700;
+font-size: 20px;
+text-align: right;
+color: #fff;
+}
+.header__nav-search{
+    width: 20px;
+    height: 20px;
+}
+.header__nav-shop{
+    width: 17px;
+    height: 20px;
+}
+.header__nav-link{
+    display: flex;
+    gap: 30px;
+align-items: center;
+margin-left: 30px;
+}
+.header__nav-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    gap: 20px;
+}
+.header__nav-logo{
+    margin: 6px 0;
+}
+.header__content{
+    background: url(../img/Header.svg) no-repeat center /cover;
+    height: 700px;
+}
+.header__content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__content-airpods{
+    font-family: 'ProstoOne';
+font-weight: 400;
+font-size: 100px;
+line-height: 75%;
+color: #fff;
+margin-top: 204px;
+margin-bottom: 38px;
+}
+.header__content-offic{
+    font-family:'MonsterM';
+font-weight: 500;
+font-size: 20px;
+text-transform: uppercase;
+color: #171718;
+background: #fff;
+border-radius: 10px;
+width: 200px;
+height: 50px;
+padding: 13px 14px;
+display: block;
+padding-right: 11px;
+}
+body{
+ background: #151515;
+}
+.text-one{
+    font-family:'MonsterM';
+font-weight: 500;
+font-size: 22px;
+color: #fff;
+width: 540px;
+}
+.main__section-text{
+    font-family:'MonsterM';
+font-weight: 500;
+font-size: 22px;
+color: #fff;
+}
+.main__section-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.main__section-box-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-family: 'MonsterB';
+font-weight: 700;
+font-size: 20px;
+text-align: right;
+color: #fff;
+}
+.text-two{
+    font-family: 'MonsterB' ;
+font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+.main__section-box-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__section-box-one-mediana{
+    margin: 0 88px;
+    margin-bottom: 79px;
+    display: flex;
+    align-items: center;
+}
+.main__section-box-one-mediana::before{
+    content: '';
+    display: block;
+    width: 61px;
+height: 1px;
+background: #c4c4c4;
+}
+.main__section-box-one-mediana::after{
+    content: '';
+    display: block;
+    width: 61px;
+height: 1px;
+background: #c4c4c4;
+}
+.main__section-card-item{
+    border-radius: 6px;
+    width: 255px;
+    height: 312px;
+    background: #fff;
+}
+.name-phone{
+    font-family: 'MonsterB';
+font-weight: 700;
+font-size: 20px;
+color: #000;
+margin-bottom: 10px;
+}
+.infa-phone{
+    font-family:'MonsterR';
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: #000;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.view-phone{
+    font-family:'MonsterB';
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+color: #fff;
+background: #151515;
+width: 161px;
+height: 34px;
+padding: 7px 57px;
+}
+.main__section-card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__section-card{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background: #282828;
+}
+.footer__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__card-list{
+    display: flex; 
+    gap: 30px;
+}
+.footer__card-list-link{
+    font-family:'MonsterB';
+font-weight: 700;
+font-size: 20px;
+text-align: right;
+color: #fff;
+}
+.footer__card-logo{
+    margin: 81px 0;
+}
+.footer__card-visa{
+    margin-right: 30px;
+}
+@media(max-width:1140px){
+    .header__nav-perents{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header__nav-icon{
+        text-align: center;  
+    }
+    
+}
